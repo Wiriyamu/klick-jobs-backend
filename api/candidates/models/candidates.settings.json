@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "candidates",
+  "info": {
+    "name": "candidates"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "additionalInformations": {
+      "type": "text",
+      "required": false
+    },
+    "curriculum": {
+      "type": "string",
+      "required": true
+    },
+    "job": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jobs",
+  "info": {
+    "name": "Jobs"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "location": {
+      "type": "string",
+      "required": true
+    },
+    "hire": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "requeriments": {
+      "type": "richtext",
+      "required": true
+    },
+    "additional_informations": {
+      "type": "richtext"
+    },
+    "requeriments_differential": {
+      "type": "richtext"
+    },
+    "requeriments_moreDifferential": {
+      "type": "richtext"
+    },
+    "responsibilities": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
